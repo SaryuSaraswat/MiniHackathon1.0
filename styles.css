@@ -1,0 +1,152 @@
+body{
+    flex-shrink: 0;
+}
+
+.header{
+    width: 100%;
+}
+
+.newsheading{
+    margin: auto;
+    width: 40%;
+    height: 118px;
+    color: var(--Dark, #3C3030);
+    font-family: "Iowan Old Style";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400; 
+}
+
+.search-container{
+    width: 267px;
+    height: 60px;
+    margin: auto;
+    padding: 4px;
+}
+
+.search-btn{
+    background-color: rgb(253, 43, 43);
+    color: white;
+    border-color: rgb(253, 43, 43);
+    padding: 0 4px;
+
+}
+
+input[type="text"] {
+    padding-block: 10px;
+    padding-block-start: 10px;
+    padding-block-end: 10px;
+    padding-inline: 10px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+}
+
+button.search-btn {
+    padding-block: 10px;
+    padding-block-start: 10px;
+    padding-block-end: 10px;
+    padding-inline: 10px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+}
+
+.main{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.newsContainer{
+    margin: auto;
+    width: 60%;
+}
+
+.symbol{
+    height: 25px;
+    width: 25px;
+}
+
+img{
+    height: 150px;
+    width: 300px;
+}
+
+.row{
+    height: 400px;
+    width: 300px;
+    padding: 30px;
+}
+.info{
+    height: 250px;
+}
+.heading{
+    height: 30%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight :bolder;
+    font-size: larger;
+}
+.description{
+    height: 40%;
+    font-family:sans-serif;
+    font-size: medium;
+}
+
+.col{
+    display: flex;
+}
+
+.last-line{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 768px) {
+    .newsheading {
+        width: 80%;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .search-container {
+        width: 80%;
+        margin: 0 auto 20px;
+    }
+
+    .main {
+        padding: 20px;
+    }
+
+    .newsContainer {
+        width: 90%;
+    }
+
+    img {
+        height: auto;
+        width: 100%;
+    }
+
+    .row {
+        height: auto;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .col {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heading {
+        font-size: larger;
+    }
+
+    .description {
+        font-size: medium;
+    }
+
+    .last-line {
+        padding: 10px;
+    }
+}
